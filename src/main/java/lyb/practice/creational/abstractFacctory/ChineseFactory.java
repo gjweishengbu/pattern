@@ -12,7 +12,7 @@ import lyb.practice.creational.*;
 public class ChineseFactory extends StandardSuperFactoey {
     @Override
     public Food createFood() {
-        food = new Fruit("米饭5");
+        food = new Fruit("米饭7");
         return food;
 
     }
