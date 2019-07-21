@@ -1,6 +1,5 @@
 package lyb.practice.creational.singleton.lazy;
 
-import lyb.practice.creational.singleton.LazySingletonThread;
 import org.junit.*;
 
 import java.util.HashSet;
