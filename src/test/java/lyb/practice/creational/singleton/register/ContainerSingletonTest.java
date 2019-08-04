@@ -7,7 +7,7 @@ import org.junit.*;
 import java.util.HashSet;
 
 /**
- * ContainerSingleton Tester.
+ * findLover Tester.
  * run report state:1 Failure where does not fit you want.
  * 2 error test code has bug.
  * used often 1 @BeforeClass: run first when class was loaded,for configation.

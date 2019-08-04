@@ -18,7 +18,7 @@ import java.util.concurrent.Semaphore;
  * 控制线程及并发数
  * 使用参考
  * ConcurrentExecutor.execute(()->{
- *             Object object = ContainerSingleton.getInstanceSynchronized(Fruit.class);
+ *             Object object = findLover.getInstanceSynchronized(Fruit.class);
  *             hungrySingletons.add(object);
  *             System.out.println(System.currentTimeMillis()+":"+object);
  *         },10,6);
