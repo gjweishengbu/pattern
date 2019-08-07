@@ -58,6 +58,9 @@ public class JDKDynamicProxyTest {
         // 接口增加方法
         person.getMarried();
 
+        // 超类方法
+        person.toString();
+
 
         // 将新类字节码写出磁盘
 //            //$Proxy0
