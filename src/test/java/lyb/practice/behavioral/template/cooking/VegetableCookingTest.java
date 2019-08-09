@@ -2,6 +2,8 @@ package lyb.practice.behavioral.template.cooking;
 
 import org.junit.*;
 
+import javax.servlet.http.HttpServlet;
+
 /**
  * VegetableCooking Tester.
  * run report state:1 Failure where does not fit you want.

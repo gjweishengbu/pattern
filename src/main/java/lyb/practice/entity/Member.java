@@ -1,4 +1,4 @@
-package lyb.practice.behavioral.template.jdbc.entity;
+package lyb.practice.entity;
 
 /**
  * Created by Tom on 2019/3/16.

@@ -2,7 +2,7 @@ package lyb.practice.behavioral.template.jdbc.dao;
 
 import lyb.practice.behavioral.template.jdbc.JdbcTemplate;
 import lyb.practice.behavioral.template.jdbc.RowMapper;
-import lyb.practice.behavioral.template.jdbc.entity.Member;
+import lyb.practice.entity.Member;
 
 import javax.sql.DataSource;
 import java.sql.ResultSet;

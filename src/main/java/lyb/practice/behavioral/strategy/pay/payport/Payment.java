@@ -1,7 +1,7 @@
 package lyb.practice.behavioral.strategy.pay.payport;
 
 
-import lyb.practice.behavioral.strategy.pay.MsgResult;
+import lyb.practice.entity.ResultMsg;
 
 /**
  * 支付渠道
@@ -16,11 +16,11 @@ public abstract class Payment {
     protected abstract double queryBalance(String uid);
 
     //扣款支付
-    public MsgResult pay(String uid, double amount) {
+    public ResultMsg pay(String uid, double amount) {
         if(queryBalance(uid) < amount){
-            return new MsgResult(500,"支付失败","余额不足");
+            return new ResultMsg(500,"支付失败","余额不足");
         }
-        return new MsgResult(200,"支付成功","支付金额：" + amount);
+        return new ResultMsg(200,"支付成功","支付金额：" + amount);
     }
 
 
